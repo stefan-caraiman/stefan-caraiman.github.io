@@ -11,7 +11,9 @@ tags:
   - debugging
 ---
 
-Imagine the following scenario, you have a running container which is mis-behaving in production and you have to debug it, but the container does not have the necessary tooling. And for various reasons(and also as a best practice) you can not install any 3rd party packages inside the running container in order to debug the issue at hand.
+Imagine the following scenario, you have a running container which is mis-behaving in production and you have to debug it.
+
+The container does not have the necessary tooling and for various reasons(and also as a best practice) you can not install any 3rd party packages inside the running container in order to debug the issue at hand.
 
 Fret not! You don't even need to install those debug tools inside the container, you can just use the binaries which are already residing on the host containing the container.
 
