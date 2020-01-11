@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Stefan Caraiman Blog
+title: Stefan Caraiman's Blog
 email: stefanc.caraiman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Stefan Caraiman's blog about Linux, DevOps and other random thoughts.
@@ -114,7 +114,7 @@ tag_archive:
   path: /tags/
 
 
-google_site_verification: "googleb1e83d8a43adc858.html"
+google_site_verification: "Jtke_p8mN-rVRMITrI6g4sGRahVMmVTy-IKD-aHCDs8"
 
 comments:
   provider: "disqus"
