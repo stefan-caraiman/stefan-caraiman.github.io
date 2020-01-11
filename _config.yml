@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Stefan Caraiman's Blog
+title: Stefan Caraiman Blog
 email: stefanc.caraiman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Stefan Caraiman's blog about Linux, DevOps and other random thoughts.
@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Stefan Caraiman"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hey! I'm Stefan Caraiman, a DevOps guy that likes writting about linux and random cloud related topics."
+  bio    : "Hey! I'm Stefan Caraiman, a DevOps engineer that likes writting about linux and random IT related topics."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -71,6 +71,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/stefan.caraiman/"
+
 
 footer:
   links:
