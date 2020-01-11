@@ -114,7 +114,7 @@ tag_archive:
   path: /tags/
 
 
-google-site-verification: "googleb1e83d8a43adc858.html"
+google_site_verification: "googleb1e83d8a43adc858.html"
 
 comments:
   provider: "disqus"
