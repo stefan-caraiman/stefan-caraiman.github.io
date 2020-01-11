@@ -94,6 +94,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      words_per_minute: 150
       comments: true
       share: true
       related: true
@@ -104,6 +105,7 @@ defaults:
     values:
       layout: single
       read_time: true
+      words_per_minute: 150
       comments: true
       author_profile: true
 
