@@ -42,7 +42,7 @@ Oops, looks like we're not able to run `chmod` anymore, what ways can you think 
 
 ### Solutions
 
-1. Copy permissions from another binary and overwrite the binary file, thus keeping the permissions
+#### Copy permissions from another binary and overwrite the binary file, thus keeping the permissions
 
 ```console
 $ cp /bin/ls chmod.01
@@ -52,7 +52,7 @@ $ ./chmod.01 +x /bin/chmod
 
 This works since `cp` preserves permissions by default.
 
-2. Use the `perl`, `python` or `ruby` modules for setting the permissions
+#### Use the `perl`, `python` or `ruby` modules for setting the permissions
 
 ```console
 $ perl -e 'chmod(0755, "chmod")'
@@ -60,7 +60,7 @@ $ ruby -r fileutils -e "FileUtils.chmod 0755, '/bin/chmod'"
 $ python -c "import os; os.chmod('/bin/chmod', 0755)"
 ```
 
-3. Using `busybox`
+#### Using `busybox`
 
 Since busybox has all of the core Unix utilies built-in, we can just use the `chmod` from there.
 
@@ -68,7 +68,7 @@ Since busybox has all of the core Unix utilies built-in, we can just use the `ch
 $ busybox chmod 755 /bin/chmod 
 ```
 
-4. Using `rsync` with the `chmod` argument to set the permissions of the file
+#### Using `rsync` with the `chmod` argument to set the permissions of the file
 
 This one is pretty similar to the `cp` one, still an elegant solution.
 
@@ -119,7 +119,7 @@ The only issue with this, is that once the process stops the file descriptors ar
 
 ## Conclusion
 
-The problems above can also serve as a segue into more detailed topics, such as `What is a file descriptor?`, `What else can you find in the /proc/ folder?`, `What are permissions?` and so on, making the interview process even more fluid and less nerve breaking.
+The problems above can also serve as a segue into more detailed topics, such as `What is a file descriptor?`, `What else can you find in the /proc/ folder?`, `What are permissions?` and so on, making the interview process more fluid and less nerve breaking.
 
 This will be a multi-part series of posts containing various DevOps/Linux interview questions, so make sure to come back for more if this one caught your interest.
 
