@@ -18,7 +18,7 @@ tags:
 
 In the past few years I've been in quite a number of interviews, both as an interviewer and interviewee. 
 
-And while I agree to some degree that anyone which calls themselves a DevOps/Cloud/Platform Engineer should have a base knowledge about networking, OS, scripting, etc. at the end of the day that's not what differences an average candidate which knows things by the book from an ideal one that can tackle anything issue thrown at them.
+And while I agree to some degree that anyone which calls themselves a DevOps/Cloud/Platform Engineer should have a base knowledge about networking, OS, scripting, etc. at the end of the day that's not what differences an average candidate which knows things by the book from an ideal one that can tackle any issue thrown at them.
 
 Thus I've come to the conclusion that in order to make that difference, the "strangest" and "quirkest" questions are the best for figuring out how well and outside the box a candidate can think when thrown against an unpredictable question. 
 
@@ -113,7 +113,7 @@ $ # Hooray! We got the file content back
 
 But how does this work?
 
-Every process on the system has a directory in `/proc/` with it's ID in it, inside of which lies many things regarding the process, including an `fd` (file descriptor) subdirectory containing links to all files that the process has open. Even if a file has been removed from the filesystem, a copy of the data will still be there.
+Every process on the system has a directory in `/proc/` with the ID in it, inside of which lies many things regarding the process, including an `fd` (file descriptor) subdirectory containing links to all files that the process has open. Even if a file has been removed from the filesystem, a copy of the data will still be there.
 
 The only issue with this, is that once the process stops the file descriptors are gone. So in the end, you should always make sure that you version control or backup your important scripts somehow.
 
