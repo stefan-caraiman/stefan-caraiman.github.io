@@ -16,7 +16,7 @@
 title: Stefan Caraiman Blog
 email: stefanc.caraiman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Stefan Caraiman's blog about Linux, DevOps and other random thoughts.
+  Welcome to my blog about Linux, DevOps and other random thoughts and subjects.
 twitter_username: StefanCaraiman
 github_username: stefan-caraiman
 minimal_mistakes_skin: dark
@@ -27,7 +27,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Bucharest
 
@@ -94,7 +94,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      words_per_minute: 150
+      words_per_minute: 100
       comments: true
       share: true
       related: true
@@ -105,7 +105,7 @@ defaults:
     values:
       layout: single
       read_time: true
-      words_per_minute: 150
+      words_per_minute: 100
       comments: true
       author_profile: true
 
