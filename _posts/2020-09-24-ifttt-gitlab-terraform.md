@@ -43,8 +43,11 @@ After which I created and setup the **[gitlab][gitlab]** project** 🛠
 
   * setup **Gitlab** repository
   * write **Terraform** code
+    * have a look at `*.tf` files
   * setup CI/CD
+    * have a look at `.gitlab-ci.yml` and `scripts/` folder
   * setup Docker image to run in the CI/CD stages
+    * have a look at `Dockerfile`
   * setup a **webhook** that will be triggered by **IFTTT** through **Google Assisstant**
     * Settings -> CI/CD -> Pipeline triggers
 
