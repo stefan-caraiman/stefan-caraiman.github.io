@@ -91,7 +91,7 @@ test2:
 You can read more about this on the official [gitlab][gitlab] documentation page about CI/CD.
 
 
-### Note for the reader
+### Note for the reader ❕
 
 You can’t use YAML anchors across multiple files when leveraging the include feature. Anchors are only valid within the file they were defined in.
 
@@ -101,6 +101,6 @@ There are many ways through which you can simplify your YAMLs, be it default cap
 
 The only golden rule that you should remind yourself at all times, is that most probably there is another way to simply something and make it more readable, so always try to read the docs and code of others in order to find such ways.
 
-And as always, happy learning!
+And as always, happy learning! 🙌
 
 [gitlab]: https://docs.gitlab.com/ee/ci/yaml/#anchors

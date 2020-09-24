@@ -14,8 +14,6 @@ tags:
   - chmod
 ---
 
-## Context
-
 In the past few years I've been in quite a number of interviews, both as an interviewer and interviewee. 
 
 And while I agree to some degree that anyone which calls themselves a DevOps/Cloud/Platform Engineer should have a base knowledge about networking, OS, scripting, etc. at the end of the day that's not what differences an average candidate which knows things by the book from an ideal one that can tackle any issue thrown at them.
@@ -26,7 +24,7 @@ Because, let's be real here, our day to day job is not something which you can f
 
 Having said that, I will be going through some "non-standard" questions(and the solutions) which I've came across along the years.
 
-## The chmod 444 issue
+## The chmod 444 issue 🐛
 
 Let's take the following scenario. A careless administrator(maybe even yourself) has run the following command:
 
@@ -40,7 +38,7 @@ bash: /bin/chmod: Permission denied
 
 Oops, looks like we're not able to run `chmod` anymore, what ways can you think of to fix this? Bonus points, don't use `ssh`, `scp` to copy the binary from another system.
 
-### Solutions
+### Solutions ✅
 
 #### Copy permissions from another binary and overwrite the binary file, thus keeping the permissions
 
@@ -109,7 +107,7 @@ $ cp /proc/1997/fd/255 script.sh
 $ # Hooray! We got the file content back
 ```
 
-### Explanation
+### Explanation 📚
 
 But how does this work?
 
@@ -117,10 +115,10 @@ Every process on the system has a directory in `/proc/` with the ID in it, insid
 
 The only issue with this, is that once the process stops the file descriptors are gone. So in the end, you should always make sure that you version control or backup your important scripts somehow.
 
-## Conclusion
+## Conclusion 
 
 The problems above can also serve as a segue into more detailed topics, such as `What is a file descriptor?`, `What else can you find in the /proc/ folder?`, `What are permissions?` and so on, making the interview process more fluid and less nerve breaking.
 
 This will be a multi-part series of posts containing various DevOps/Linux interview questions, so make sure to come back for more if this one caught your interest.
 
-Looking forward to what you think about the questions above and other possible solutions to them, happy learning!
+Looking forward to what you think about the questions above and other possible solutions to them, happy learning! 👋

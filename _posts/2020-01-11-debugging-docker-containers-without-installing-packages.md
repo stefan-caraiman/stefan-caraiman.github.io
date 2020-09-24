@@ -1,5 +1,5 @@
 ---
-title: "Debugging docker containers without installing packages"
+title: "Debugging docker containers with nsenter 🐳"
 date: 2020-01-11T20:30:30-04:00
 categories:
   - docker

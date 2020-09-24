@@ -12,9 +12,9 @@ tags:
   - debugging
 ---
 
-Welcome back to part 2 of the DevOps interview questions blog series.
+Welcome back to part 2 of the DevOps interview questions blog series. 👋
 
-I won't bore you with any other side details and contexts, so let's get straight into the questions.
+I won't bore you with any other side details and contexts, so let's get straight into the **questions**
 
 
 ## Copying files between servers without SSH/SCP
