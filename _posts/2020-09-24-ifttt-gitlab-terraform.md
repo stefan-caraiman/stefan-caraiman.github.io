@@ -12,7 +12,7 @@ tags:
 
 This blog post serves as an insight into the implementation details that went into my recent demo presentation about IFTTT, Goggle Assistant, Gitlab and Terraform and to also offer additional side details and views on these topics.
 
-A link to the Gitlab project can be **[here][gitlab]** 🍀
+A link to the Gitlab project can be found **[here][gitlab]** 🍀
 
 
 ## Why 🤔?
