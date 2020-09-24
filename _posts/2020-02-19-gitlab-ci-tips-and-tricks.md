@@ -1,5 +1,5 @@
 ---
-title: "Gitlab-CI tips and tricks"
+title: "Gitlab-CI tips and tricks 🎃"
 date: 2020-02-19T15:15:33-04:00
 categories:
   - blog
@@ -63,6 +63,7 @@ variables:
 
 What we will achieve with this, is that we will be able to reuse the `base-testing.yml` file defined in our central repository of CI templates, and we simply overwrite any variables with their needed value after we `include` it. Pretty neat, huh?
 
+
 # YAML tips and tricks
 
 Recently I came across this thing called `anchors` and I think it simplifies many of the common CI/CD YAML sections by a lot, helping with keeping your CI/CD definition DRY(Dont Repeat Yourself).
@@ -88,6 +89,7 @@ test2:
 ```
 
 You can read more about this on the official [gitlab][gitlab] documentation page about CI/CD.
+
 
 ### Note for the reader
 

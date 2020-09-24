@@ -1,5 +1,5 @@
 ---
-title: "Smart devices + Gitlab + Terraform = ❤"
+title: "Smart devices + Gitlab + Terraform = 💘"
 date: 2020-09-24T17:24:31-04:00
 categories:
   - docker
@@ -34,9 +34,9 @@ Services such as(*but not limited to*): Github, Webhooks, Google, Alexa, HueLigh
 
 I started off by connecting the following services to my **IFTTT** account:
   
-    - Google Assisstant
-    - TpLink Kasa Smart Bulbs
-    - Slack
+  * Google Assisstant
+  * TpLink Kasa Smart Bulbs
+  * Slack
 
 
 ## Conclusion 🙌
