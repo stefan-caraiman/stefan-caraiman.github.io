@@ -1,5 +1,5 @@
 ---
-title: "Integrating Gitlab and Terraform with smart devices"
+title: "Smart devices + Gitlab + Terraform = ❤"
 date: 2020-09-24T17:24:31-04:00
 categories:
   - docker
@@ -11,6 +11,8 @@ tags:
 ---
 
 This blog post serves as an insight into the implementation details that went into my recent demo presentation about IFTTT, Goggle Assistant, Gitlab and Terraform and to also offer additional side details and views on these topics.
+
+A link to the Gitlab project can be found **[here][gitlab]**.
 
 
 ## Why?
@@ -44,7 +46,8 @@ Although smart device integrations is seen as something still in the maturity ph
 My view is that we should try and drive this new "revolution" as it proves that it can bring a lot of initial value to any kind of project, especially in making the working environment feel more *interactive*.
 
 
-**Special thanks to: Dana Panica and Gabriel Ichim for all the help for and during this presentation.**
+Special thanks to: **Dana Panica** and **Gabriel Ichim** for all the help for and during this presentation.
 
 
 [Kelsey]: https://twitter.com/kelseyhightower
+[gitlab]: https://gitlab.com/devops146/terraform-smart-demo
