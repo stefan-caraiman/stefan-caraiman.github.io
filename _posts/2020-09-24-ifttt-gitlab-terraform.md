@@ -34,9 +34,22 @@ Services such as(*but not limited to*): Github, Webhooks, Google, Alexa, HueLigh
 
 I started off by connecting the following services to my **IFTTT** account:
   
-  * Google Assisstant
-  * TpLink Kasa Smart Bulbs
-  * Slack
+  * Google Assisstant 🎙
+  * TpLink Kasa Smart Bulbs 💡
+  * Slack 📓
+
+
+After which I created and setup the ****[gitlab][gitlab]** project**: 🛠
+
+  * setup **Gitlab** repository
+  * write **Terraform** code
+  * setup CI/CD
+  * setup Docker image to run in the CI/CD stages
+  * setup a **webhook** that will be triggered by **IFTTT** through **Google Assisstant**
+    * Settings -> CI/CD -> Pipeline triggers
+
+From then on out, it was a matter of clicking and writting the necessary parameters and details in **IFTTT[IFTTT]**:
+
 
 
 ## Conclusion 🙌
@@ -56,3 +69,4 @@ For all the help and support for and during this presentation!
 
 [Kelsey]: https://twitter.com/kelseyhightower
 [gitlab]: https://gitlab.com/devops146/terraform-smart-demo
+[IFTTT]: https://ifttt.com/create/
