@@ -17,13 +17,13 @@ The container does not have the necessary tooling and for various reasons(and al
 
 Fret not! You don't even need to install those debug tools inside the container, you can just use the binaries which are already residing on the host containing the container.
 
-## What's the solution?
+## What's the solution? 🤔
 
 The answer is `nsenter` !
 
 `nsenter` allows you to enter a specific process namespace, for example in this scenario, it allows you to enter the network namespace of the container and still keep access to the host tooling. You can read more about it [here][nsenter].
 
-Keep in mind that that any kind of namespace change requires you to have root privileges. Now let's see this in action:
+Keep in mind that that any kind of namespace change requires you to have root privileges. Now let's see this in action: 💻
 
 ```console
 $ docker run -itd --rm --name example nginx:latest
@@ -47,10 +47,10 @@ Proto Recv-Q Send-Q Local Address           Foreign Address         State       
 tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      15098/nginx: master
 ```
 
-## Conclusion
+## Conclusion 
 
 Et voilà! Any command from this point on will be ran inside the container's namespace. Don't forget to `exit` the namespace once you are done debugging.
 
-I look forward to your comments and any questions you might have, happy debugging!
+I look forward to your comments and any questions you might have, happy debugging! 🐛
 
 [nsenter]: http://man7.org/linux/man-pages/man1/nsenter.1.html

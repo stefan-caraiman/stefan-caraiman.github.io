@@ -10,7 +10,7 @@ tags:
   - non-tech
 ---
 
-Hey there, I'm Stefan Caraiman, welcome to my blog! 👋
+Hey there, I'm Stefan Caraiman, welcome to my blog!
 
 I'm just another random DevOps Engineer in the sea of IT folks that is into FOSS(Free and open-source software), DevOps(duh!), the "cloud" and security related topics.
 
