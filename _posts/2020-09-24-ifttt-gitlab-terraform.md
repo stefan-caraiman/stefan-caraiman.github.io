@@ -27,6 +27,16 @@ Well after some initial *google searches* and a couple of hours of clicking arou
 
 ## How 📝?
 
+After a few minutes of scribbling around I came to the following **ideal workflow** 🔎
+
+  1. Tell the **Google Assisstant** to run a **terraform** command
+  2. It will pass the given input to the **Gitlab pipeline** as a *parameter*
+  3. The **Gitlab pipeline** will run the **terraform** command inside a **Docker** container
+  4. Following that we trigger a **message** on a **Slack channel**
+  5. Finally we **light up a bulb** inside the **development room** (my livingroom in this case since it's the Working from Home year 🏡)
+
+
+But what kind of service could server as the **glue** for triggering all of these diverse actions?
 
 In my case I've decided to go with **IFTTT** (*If This Then That*), a web service which can **connect** and **create chains of actions** of various other **services**.
 
@@ -35,7 +45,7 @@ Services such as(*but not limited to*): Github, Webhooks, Google, Alexa, HueLigh
 I started off by connecting the following services to my **IFTTT** account:
   
   * Google Assisstant 🎙
-  * TP-Link Kasa 💡
+  * TP-Link Kasa(for the lightbulbs) 💡
   * Slack 📓
 
 
