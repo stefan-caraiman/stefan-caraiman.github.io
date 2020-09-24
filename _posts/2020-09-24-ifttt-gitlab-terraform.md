@@ -1,5 +1,5 @@
 ---
-title: "Debugging docker containers without installing packages"
+title: "Integrating Gitlab and Terraform with smart devices"
 date: 2020-09-24T17:24:31-04:00
 categories:
   - docker
