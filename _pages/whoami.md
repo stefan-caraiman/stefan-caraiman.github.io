@@ -3,6 +3,11 @@ permalink: /whoami/
 title: "whoami"
 ---
 
+```console
+$ whoami
+Stefan Caraiman - DevOps Engineer
+```
+
 Hey there! I'm Stefan, a DevOps Engineer and (at times) an open source contributor.
 
 Welcome to my blog. Here you will find every post I've ever written and organized by category. 
