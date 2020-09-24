@@ -46,7 +46,12 @@ Although smart device integrations is seen as something still in the maturity ph
 My view is that we should try and drive this new "revolution" as it proves that it can bring a lot of initial value to any kind of project, especially in making the working environment feel more *interactive*.
 
 
-Special thanks to 🙏: **Dana Panica** and **Gabriel Ichim** for all the help for and during this presentation.
+### Special thanks to 🙏: 
+
+  * Dana Panica 💃
+  * Gabriel Ichim 🤵
+
+For all the help and support for and during this presentation!
 
 
 [Kelsey]: https://twitter.com/kelseyhightower
