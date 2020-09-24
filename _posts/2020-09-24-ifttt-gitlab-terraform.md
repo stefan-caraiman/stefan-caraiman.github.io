@@ -12,10 +12,10 @@ tags:
 
 This blog post serves as an insight into the implementation details that went into my recent demo presentation about IFTTT, Goggle Assistant, Gitlab and Terraform and to also offer additional side details and views on these topics.
 
-A link to the Gitlab project can be found **[here][gitlab]**.
+A link to the Gitlab project can be **[here][gitlab]** 🍀
 
 
-## Why?
+## Why 🤔?
 
 
 The first thing that comes to mind would be, **why not?** we always hear about the future and the shiniest tools and how smart devices can help us in many different ways, so why not try to implement something like that in the **DevOps life cycle**.
@@ -25,7 +25,7 @@ The other immediate answer would be, becase ever since I saw [Kelsey][Kelsey] Hi
 Well after some initial *google searches* and a couple of hours of clicking around the web, I had already managed to create a somehow functional **voice assisted CI/CD pipeline**.
 
 
-## How?
+## How 📝?
 
 
 In my case I've decided to go with **IFTTT** (*If This Then That*), a web service which can **connect** and **create chains of actions** of various other **services**.
@@ -39,14 +39,14 @@ I started off by connecting the following services to my **IFTTT** account:
     - Slack
 
 
-## Conclusion
+## Conclusion 🙌
 
 Although smart device integrations is seen as something still in the maturity phase, the integrations and services available at the moment all work almost flawlessly and cover up a large portion of what any business looks to adopt in their life cycles.
 
 My view is that we should try and drive this new "revolution" as it proves that it can bring a lot of initial value to any kind of project, especially in making the working environment feel more *interactive*.
 
 
-Special thanks to: **Dana Panica** and **Gabriel Ichim** for all the help for and during this presentation.
+Special thanks to 🙏: **Dana Panica** and **Gabriel Ichim** for all the help for and during this presentation.
 
 
 [Kelsey]: https://twitter.com/kelseyhightower
