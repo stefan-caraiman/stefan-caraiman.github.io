@@ -35,7 +35,7 @@ Services such as(*but not limited to*): Github, Webhooks, Google, Alexa, HueLigh
 I started off by connecting the following services to my **IFTTT** account:
   
   * Google Assisstant 🎙
-  * TpLink Kasa Smart Bulbs 💡
+  * TP-Link Kasa 💡
   * Slack 📓
 
 
@@ -50,6 +50,7 @@ After which I created and setup the ****[gitlab][gitlab]** project**: 🛠
 
 From then on out, it was a matter of clicking and writting the necessary parameters and details in **IFTTT[IFTTT]**:
 
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/ifttt.png)
 
 
 ## Conclusion 🙌
