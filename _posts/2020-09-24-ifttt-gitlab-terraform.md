@@ -57,6 +57,14 @@ From then on out, it was a matter of clicking and writting the necessary paramet
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/ifttt.png)
 
 
+For example I've configured the **Google assisstant service** to respond like so (feel free to customize it as sassy as you like 💁‍♀️)
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/google-ifttt.png)
+
+
+As you can see, the **IFTTT** platform is pretty straight forward and easy to use, making **smart device automation and integration** less intimidating than most of us might think of it.
+
+
 ## Conclusion 🙌
 
 Although smart device integrations is seen as something still in the maturity phase, the integrations and services available at the moment all work almost flawlessly and cover up a large portion of what any business looks to adopt in their life cycles.
