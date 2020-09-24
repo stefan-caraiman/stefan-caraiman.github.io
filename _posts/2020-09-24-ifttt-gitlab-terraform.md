@@ -16,7 +16,25 @@ This blog post serves as an insight into the implementation details that went in
 ## Why?
 
 
+The first thing that comes to mind would be, **why not?** we always hear about the future and the shiniest tools and how smart devices can help us in many different ways, so why not try to implement something like that in the **DevOps life cycle**.
+
+The other immediate answer would be, becase ever since I saw [Kelsey][Kelsey] Hightower do his now *classical* demos with the **Google Assisstant**, I've wondered just **how hard can it be** to integrate and implement something like that?
+
+Well after some initial *google searches* and a couple of hours of clicking around the web, I had already managed to create a somehow functional **voice assisted CI/CD pipeline**.
+
+
 ## How?
+
+
+In my case I've decided to go with **IFTTT** (*If This Then That*), a web service which can **connect** and **create chains of actions** of various other **services**.
+
+Services such as(*but not limited to*): Github, Webhooks, Google, Alexa, HueLights, Office365 suite, Trello, Slack and a lot of smart devices.
+
+I started off by connecting the following services to my **IFTTT** account:
+  
+    - Google Assisstant
+    - TpLink Kasa Smart Bulbs
+    - Slack
 
 
 ## Conclusion
@@ -29,4 +47,4 @@ My view is that we should try and drive this new "revolution" as it proves that 
 **Special thanks to: Dana Panica and Gabriel Ichim for all the help for and during this presentation.**
 
 
-[nsenter]: http://man7.org/linux/man-pages/man1/nsenter.1.html
+[Kelsey]: https://twitter.com/kelseyhightower
