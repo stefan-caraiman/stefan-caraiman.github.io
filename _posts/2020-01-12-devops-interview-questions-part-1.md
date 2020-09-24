@@ -1,5 +1,5 @@
 ---
-title: "DevOps interview questions - Part 1"
+title: "DevOps interview questions - Part 1 📔"
 date: 2020-01-12T10:23:30-04:00
 categories:
   - devops

@@ -1,5 +1,5 @@
 ---
-title: "Lessons learned from production outages - Part 1 Embracing the outage"
+title: "Lessons learned from production outages - Part 1 Embracing the outage 📉"
 date: 2020-01-25T10:23:30-04:00
 categories:
   - devops
