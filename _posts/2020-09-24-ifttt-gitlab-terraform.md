@@ -39,7 +39,7 @@ I started off by connecting the following services to my **IFTTT** account:
   * Slack 📓
 
 
-After which I created and setup the **[gitlab][gitlab]** project** 🛠
+After which I created and setup the **[gitlab][gitlab]** project 🛠
 
   * setup **Gitlab** repository
   * write **Terraform** code
@@ -51,6 +51,7 @@ After which I created and setup the **[gitlab][gitlab]** project** 🛠
   * setup a **webhook** that will be triggered by **IFTTT** through **Google Assisstant**
     * Settings -> CI/CD -> Pipeline triggers
 
+
 From then on out, it was a matter of clicking and writting the necessary parameters and details in [IFTTT][IFTTT]
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/ifttt.png)
@@ -60,7 +61,7 @@ From then on out, it was a matter of clicking and writting the necessary paramet
 
 Although smart device integrations is seen as something still in the maturity phase, the integrations and services available at the moment all work almost flawlessly and cover up a large portion of what any business looks to adopt in their life cycles.
 
-My view is that we should try and drive this new "revolution" as it proves that it can bring a lot of initial value to any kind of project, especially in making the working environment feel more *interactive*.
+My view is that we should try and drive this new **revolution** as it proves that it can bring a lot of initial value to any kind of project, especially in making the working environment feel more **interactive** (*and a lot more fun as well*)
 
 
 ### Special thanks to 🙏: 
