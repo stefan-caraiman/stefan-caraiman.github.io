@@ -50,7 +50,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ```
 
-As we can see, we only have two ports open, **22 for SSH** and **80 for HTTP**, lets try to access the HTTP webpage(http://10.10.21.22 in my case):
+As we can see, we only have two ports open, **22 for SSH** and **80 for HTTP**, lets try to access the HTTP webpage( http://10.10.21.22/ in my case):
 
 
 
