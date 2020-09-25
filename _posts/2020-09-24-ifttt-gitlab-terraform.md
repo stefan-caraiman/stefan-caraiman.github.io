@@ -36,7 +36,7 @@ After a few minutes of scribbling around I came to the following **ideal workflo
   5. Finally we **light up a bulb** inside the **development room** (my livingroom in this case since it's the Working from Home year 🏡)
 
 
-But what kind of service could server as the **glue** for triggering all of these diverse actions?
+But what kind of service could serve as the **glue** for triggering all of these diverse actions?
 
 In my case I've decided to go with **IFTTT** (*If This Then That*), a web service which can **connect** and **create chains of actions** of various other **services**.
 
