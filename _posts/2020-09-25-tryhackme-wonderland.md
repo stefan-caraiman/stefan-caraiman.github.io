@@ -54,7 +54,7 @@ As we can see, we only have two ports open, **22 for SSH** and **80 for HTTP**, 
 
 
 
-We start downloading the pictures and check for any embedded data inside of them: 🖼
+We start downloading the pictures and check for any embedded data inside of them: 📷
 
 ```console
 $ wget http://10.10.21.22/img/white_rabbit_1.jpg
