@@ -23,7 +23,9 @@ I've had quite a lot of fun with this one and learned quite a lot of new tools, 
 
 The first step with any kind of CTF(*Capture The Flag*) challenge is to start gathering any kind of information about the machine. Clasically this means to start off by doing a **port scanning** of the host IP.
 
-This is usually done by using the **nmap** tool, an open source tool for network exploration and security auditing. Basically we are checking what **open ports** there are on the system, like so:
+This is usually done by using the **nmap** tool, an open source tool for network exploration and security auditing.
+
+Basically we are checking what **open ports** there are on the system, like so:
 
 
 ```console
