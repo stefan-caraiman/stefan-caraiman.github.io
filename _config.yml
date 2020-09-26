@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Stefan Caraiman"
-  avatar : "/assets/images/bio-photo.png"
+  avatar : "/assets/images/profile-min.jpg"
   bio    : "Hey 👋 I'm Stefan Caraiman, a DevOps engineer that likes writing about linux and other IT related topics 💻"
   links:
     - label: "Website"
