@@ -1,9 +1,6 @@
 ---
 title: "Smart devices + Gitlab + Terraform = 💘"
 date: 2020-09-24T17:24:31-04:00
-categories:
-  - docker
-  - terraform
 tags:
   - docker
   - linux

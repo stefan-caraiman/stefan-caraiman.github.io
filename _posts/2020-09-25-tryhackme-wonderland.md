@@ -2,7 +2,6 @@
 title: "TryHackMe Wonderland Writeup 👨‍💻"
 date: 2020-09-25T12:22:31-04:00
 categories:
-  - linux
   - tryhackme 
 tags:
   - linux
