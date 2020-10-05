@@ -8,7 +8,7 @@ tags:
   - endava
 ---
 
-This blog post serves as an insight into the implementation details that went into my recent demo presentation at **Creative Minds** hosted by Endava about IFTTT, Goggle Assistant, Gitlab and Terraform and to also offer additional side details and views on these topics.
+This blog post serves as an insight into the implementation details that went into my recent demo presentation at **Creative Minds** hosted by Endava about IFTTT, Google Assistant, Gitlab and Terraform and to also offer additional side details and views on these topics.
 
 A link to the Gitlab project can be found **[here][gitlab]** 🍀
 
