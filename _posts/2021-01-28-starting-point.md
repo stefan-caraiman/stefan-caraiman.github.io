@@ -1,6 +1,7 @@
 ---
 title: "Getting started with DevOps! 🎉"
 date: 2021-01-28T18:30:30-04:00
+author: Dana Panica
 categories:
   - blog
   - personal

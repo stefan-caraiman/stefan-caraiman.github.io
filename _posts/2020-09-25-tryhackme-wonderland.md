@@ -1,6 +1,7 @@
 ---
 title: "TryHackMe Wonderland Writeup 👨‍💻"
 date: 2020-09-25T12:22:31-04:00
+author: Stefan Caraiman
 categories:
   - tryhackme 
 tags:
