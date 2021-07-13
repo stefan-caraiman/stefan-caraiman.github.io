@@ -12,7 +12,7 @@ header:
       url: "https://www.redhat.com/sysadmin/container-namespaces-nsenter"
   #image: /assets/images/docker-debug.jpg
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Workflow"
 toc_icon: "cog"
 categories:
   - docker
