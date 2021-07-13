@@ -2,7 +2,8 @@
 title: "Debugging containers with nsenter 🐳"
 date: 2020-01-11T20:30:30-04:00
 author: Stefan Caraiman
-excerpt: "Debugging containers with **nsenter**"
+#excerpt: "Debugging containers with **nsenter**" # override default line
+classes: wide
 header:
   image: "https://blog.container-solutions.com/hs-fs/hubfs/debuggingDock2.jpg?width=1108&name=debuggingDock2.jpg"
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
@@ -10,6 +11,9 @@ header:
     - label: "Learn more"
       url: "https://www.redhat.com/sysadmin/container-namespaces-nsenter"
   #image: /assets/images/docker-debug.jpg
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 categories:
   - docker
   - linux

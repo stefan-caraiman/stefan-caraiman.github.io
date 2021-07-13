@@ -24,7 +24,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Outputting
 permalink: /:categories/:title/
 paginate: 7 # amount of posts to show
@@ -91,10 +91,10 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: wide
       author_profile: true
       read_time: true
-      words_per_minute: 100
+      words_per_minute: 80
       comments: true
       share: true
       related: true
@@ -105,7 +105,7 @@ defaults:
     values:
       layout: single
       read_time: true
-      words_per_minute: 100
+      words_per_minute: 80
       comments: true
       author_profile: true
 
