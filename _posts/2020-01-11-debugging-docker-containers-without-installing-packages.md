@@ -1,7 +1,15 @@
 ---
-title: "Debugging docker containers with nsenter 🐳"
+title: "Debugging containers with nsenter 🐳"
 date: 2020-01-11T20:30:30-04:00
 author: Stefan Caraiman
+excerpt: "Debugging containers with **nsenter**"
+header:
+  image: "https://blog.container-solutions.com/hs-fs/hubfs/debuggingDock2.jpg?width=1108&name=debuggingDock2.jpg"
+  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  actions:
+    - label: "Learn more"
+      url: "https://www.redhat.com/sysadmin/container-namespaces-nsenter"
+  #image: /assets/images/docker-debug.jpg
 categories:
   - docker
   - linux

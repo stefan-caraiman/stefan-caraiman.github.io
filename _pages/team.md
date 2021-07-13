@@ -1,10 +1,10 @@
 ---
 permalink: /team/
-title: "team"
+title: "Our team"
 ---
 
 ```console
-$ dig team.sredaily.com +nostats +nocomments +nocmd +short
+$ dig team.sredaily.com TXT +short
 
 Stefan Caraiman - Senior DevOps Engineer 👨🏻‍💻
 Dana Panica - DevOps Engineer 👩🏻‍💻
