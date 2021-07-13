@@ -54,23 +54,23 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "Stefan Caraiman"
-  avatar : "/assets/images/profile-min.jpg"
-  bio    : "Hey 👋 I'm Stefan Caraiman, a DevOps engineer that likes writing about linux and other IT related topics 💻"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://stefan-caraiman.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/StefanCaraiman"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/stefan-caraiman"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/stefan.caraiman/"
+# author:
+#   name   : "Stefan Caraiman"
+#   avatar : "/assets/images/profile-min.jpg"
+#   bio    : "Hey 👋 I'm Stefan Caraiman, a DevOps engineer that likes writing about linux and other IT related topics 💻"
+#   links:
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       url: "https://stefan-caraiman.github.io/"
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/StefanCaraiman"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/stefan-caraiman"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://www.instagram.com/stefan.caraiman/"
 
 
 footer:
@@ -92,7 +92,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       words_per_minute: 100
       comments: true
@@ -107,7 +107,7 @@ defaults:
       read_time: true
       words_per_minute: 100
       comments: true
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
