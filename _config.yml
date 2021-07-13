@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Stefan Caraiman Blog
+title: SRE Daily Blog
 email: stefanc.caraiman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog about Linux, DevOps and other random thoughts and subjects.
+  Welcome to SRE daily, a blog about DevOps practices and SRE.
 twitter_username: StefanCaraiman
 github_username: stefan-caraiman
 minimal_mistakes_skin: dirt
