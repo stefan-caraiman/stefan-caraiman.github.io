@@ -16,7 +16,7 @@ Stefan Caraiman:
 Dana Panica:
   name        : "Dana Panica"
   bio         : "DevOps with a passion for fixing broken clouds."
-  avatar      : "/assets/images/dana-bio-photo.jpg"
+  avatar      : "/assets/images/dana-bio-photo.jpeg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
