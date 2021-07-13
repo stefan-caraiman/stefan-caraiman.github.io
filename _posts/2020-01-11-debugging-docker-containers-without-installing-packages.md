@@ -7,6 +7,8 @@ classes: wide
 header:
   image: "https://blog.container-solutions.com/hs-fs/hubfs/debuggingDock2.jpg?width=1108&name=debuggingDock2.jpg"
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  cta_label: "Learn more"
+  cta_url: "https://www.redhat.com/sysadmin/container-namespaces-nsenter"
   actions:
     - label: "Learn more"
       url: "https://www.redhat.com/sysadmin/container-namespaces-nsenter"
