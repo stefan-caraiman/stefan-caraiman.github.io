@@ -20,7 +20,7 @@ This website will serve as a way for me to share my knowledege, opinions and sto
 
 I'm into learning anything "new and shiny" as most of the folks in this area are, trying out cooking recipes, gaming at times and hanging out with interesting people.
 
-Check out the [whoami][whoami] for more info about "who i am" and other "fun facts".
+Check out the [team][team] page for more info about "who i am" and other "fun facts".
 
 ## Why are you writing this? 💭
 
@@ -34,4 +34,4 @@ The realistic promise to myself is that I will try to write and post something t
 
 If you ever need anything clarifying, want to comment or voice an opinion, or just want to get in touch, please go ahead. Don't be shy!
 
-[whoami]: https://stefan-caraiman.github.io/whoami
+[team]: https://blog.sredaily.com/team

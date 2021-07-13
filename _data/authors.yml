@@ -1,7 +1,7 @@
 Stefan Caraiman:
   name        : "Stefan Caraiman"
   bio         : "DevOps with a passion for breaking clouds."
-  avatar      : "/assets/images/stefan-bio-photo.jpg"
+  avatar      : "/assets/images/profile-min.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
