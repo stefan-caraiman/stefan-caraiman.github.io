@@ -9,11 +9,27 @@ tags:
   - blog
   - dana-panica
   - non-tech
+classes: wide
+header:
+  image: "https://www.cleveroad.com/images/article-previews/devops-monitoring.png"
+  cta_label: "How to DevOps"
+  cta_url: "https://google.com"
+toc: true
+toc_label: "Workflow"
+toc_icon: "heart"
 ---
 
-Hey there, my name is Dana! 
+# Who am I
 
-I’m not going to bore you right now, and we will get straight to the point! I suppose you want to know / understand / learn things that DevOps guys and girls do; from my experience so far, I can tell you that every company understands DevOps differently – some will say that devops is automation, some will say it’s development and others will say it’s sys-admining … boy if I would ask my grandma she would think it is something or someone that cleans chimneys.
+
+```console
+whoami
+Hey there, my name is Dana! 
+```
+
+I’m not going to bore you right now and we will get straight to the point!
+
+I suppose you want to know / understand / learn things that DevOps guys and girls do; from my experience so far I can tell you that every company understands DevOps differently – some will say that DevOps is automation, some will say it’s development and others will say it’s sys-admining … boy if I would ask my grandma she would think it is something or someone that cleans chimneys.
 
 
 # Where to start: 
@@ -21,6 +37,8 @@ I’m not going to bore you right now, and we will get straight to the point! I 
 ## Operating systems
 
 I don’t care who you are or what you do, you must understand how operating systems work (Linux, Windows even MacOs). Everything that you do, sits on an operating system. 
+
+The golden rule, atleast in Linux, is that everything is a file! Start exploring from there.
 
 ## Networking
 
@@ -36,5 +54,4 @@ From here things get funky.
 
 
 Stay close, I will teach you how to look for things and how to not die when things get nasty. 
-
 
