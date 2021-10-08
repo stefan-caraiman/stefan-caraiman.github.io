@@ -16,7 +16,7 @@ classes: wide
 header:
   image: "https://www.onlineinterviewquestions.com/storage/categories/June2018/Devops-Interview-Questions.jpg"
 toc: true
-toc_label: "Setup of Library Charts"
+toc_label: "Interview questions"
 toc_icon: "cogs"
 ---
 
@@ -94,9 +94,9 @@ There will be times in the career of any engineer where they will get their hand
 
 This in itself is not an issue, until the moment when you realize that those variables are not setup up correctly on multiple pipelines and you are currently blocked due to the fact that you can't set them up or even see them, since most CI/CD system will mask(or should mask, if it does not do this, maybe you should rethink about why you are using that system) such variables from showing in the STDOUT/output of the pipeline.
 
-For the sake of the question, we will presume we can modify the CI/CD pipeline
+For the sake of the question, we will presume we can modify the CI/CD pipeline.
 
-P.S: I'm not advocating that any of these are a secure or moral way of getting around the problem and highlighting some security risks, which you should consider on harderning.
+P.S: I'm not advocating that any of these are a secure or moral way of getting around the problem and highlighting some security risks, which you should consider on hardening.
 
 ### `echo` the variable in `base64`
 
@@ -123,4 +123,4 @@ If the CI/CD permits, you should also block edit of the pipeline definition.
 
 I think most of the questions described above can be addresed across different seniorities/positions, since the creativity of the answers and the depth of the understading of the issue, can greatly vary from individual to individual, being of great aid in understading how the other person can think and analyze a problem.
 
-Stay close for part 3 of this blog series, happy learning!
+Stay close for part 3 of this blog series and as usual, happy learning!
